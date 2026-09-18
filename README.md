@@ -49,13 +49,12 @@ TD wants to increase paperless billing adoption as part of its sustainability st
 ## How to run
 
 1. Clone this repository.
-2. Open the Jupyter notebook (`AB_Sustainability_Testing_Notebook.ipynb`).
+2. Open the Jupyter notebook ([`AB Sustainability Testing Notebook.ipynb`](<AB Sustainability Testing Notebook.ipynb>)).
 3. Run all cells in order — the notebook is fully self-contained and uses only synthetic, generated data.
 
 ## Repo structure
 ```
-├── data/                       # (synthetic data is generated in-notebook, no external file needed)
-├── notebooks/
-│   └── AB_Sustainability_Testing_Notebook.ipynb
+├── AB Sustainability Testing Notebook.ipynb   # analysis notebook (synthetic data generated in-notebook)
+├── AB Sustainability Report.pdf               # write-up
 └── README.md
 ```
