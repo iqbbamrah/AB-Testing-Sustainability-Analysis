@@ -32,7 +32,7 @@ The goal is a complete, decision-ready experimentation workflow, not just a sign
 | Check | Result |
 |---|---|
 | Power analysis | Required: 1,654 customers/group vs. actual: 10,000/group → **adequately powered** (6x the minimum needed) |
-| SRM check | p = 0.562 → randomization held; segment and channel balanced across groups |
+| SRM check | p = 0.562 → randomization held, and segment and channel were balanced across groups |
 | Primary lift | Control: 8.71%, Treatment: 11.49%, uplift: **+2.79 pp** (+32% relative), p < 0.001 |
 | Logistic regression (adjusted) | Treatment odds ratio: **1.36** (36% higher odds of conversion, holding segment/channel/age constant), p < 0.001 |
 | Guardrail: unsubscribe rate | A: 0.34%, B: 0.39%, p = 0.291 → **pass** |
@@ -40,7 +40,7 @@ The goal is a complete, decision-ready experimentation workflow, not just a sign
 | Subgroup: segment | Youth: +4.12 pp (+54% relative) · Affluent: +2.96 pp (+27%) · Mass: +2.30 pp (+28%) |
 | Subgroup: channel | Push: +3.53 pp (+38%) · SMS: +3.24 pp (+56% relative, small base) · Email: +2.40 pp (+28%) |
 
-Age itself was not a significant predictor in the regression (p = 0.947) once segment is controlled for; the segment variable captures the age-related differences in response.
+Age itself was not a significant predictor in the regression (p = 0.947) once segment is controlled for. The segment variable captures the age-related differences in response.
 
 ## Key takeaways
 
